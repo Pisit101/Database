@@ -171,3 +171,15 @@ img{
     width: 300px;
     height: 300px;
 }
+
+.details{
+   
+    
+    border-radius: 10px;
+    box-shadow: var(--box-shadow);
+    padding: 20px 20px;
+    background: var(--background);
+    margin-right: 50px;
+    margin-left: 50px;
+    width: auto;
+}
