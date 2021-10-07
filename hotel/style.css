@@ -155,6 +155,7 @@ input:checked+.slider::before {
 }
 .project-container{
     display: flex;
+    text-align: center;
 }
 .image-container{
     border: 1px solid var(--text-color-second);
