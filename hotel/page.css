@@ -110,10 +110,8 @@
   .box4 {
     background-image: url("http://sabaihotel.co.th/cr/wp-content/uploads/2018/02/sabai.jpg");
   }
-  .phuket h2 {
-    font-size: 2rem;
-    letter-spacing: 2.8px;
-  }
+
+  
   .text {
     display: flex;
     justify-content: flex-start;
@@ -122,9 +120,7 @@
   .txt  {
     font-size: 3rem;
   }
-  .phuket p {
-    opacity: 0.4;
-  }
+ 
   .tnx h2 i {
     color: #fd7e13;
   }
