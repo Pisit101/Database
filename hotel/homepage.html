@@ -1,48 +1,63 @@
-
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="page.css">
+    <title>โรงแรมเบิ้มเบิ้ม</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
 </head>
+
 <body>
-    
+    <div class="theme-switch-container">
+        <span id="toggle-icon">
+            <span class="toggle-text">Light Mode</span>
+            <i class="fas fa-sun"></i>
+        </span>
+        <label class="theme-switch">
+            <input type="checkbox">
+            <div class="slider round"></div>
+        </label>
+    </div>
+    <nav id="nav">
+        <a href="#home">หน้าแรก</a>
+        <a href="#">จองที่พัก/เข้าสู่ระบบ</a>
+        <a href="#info">เกี่ยวกับ</a>
+        <a href="#contact">ช่องทางการติดต่อ</a>
+    </nav>
+    <section id="home">
+        <div class="title-group">
+            <h1>โรงแรมท่านสมาชิกชมรม</h1>
+            <h2>สวัสดีครับท่านสมาชิกชมรมคนชอบหมี</h2>
+        </div>
+    </section>
+    <section id="info">
+        <h1>ภาพห้องพัก</h1>
+        <div class="project-container">        
+            <div class="image-container">
+                <img src="http://sabaihotel.co.th/cr/wp-content/uploads/2018/02/KingSizeBed.jpg" alt="" id="img1">
+            </div>
+            <div class="image-container">
+                <img src="https://gallerydesignhotel.com/wp-content/gallery/deluxe-double/thumbs/thumbs_4.jpg" alt="" id="img2">
+            </div>
+            <div class="image-container">
+                <img src="https://gallerydesignhotel.com/wp-content/gallery/deluxe-double/1.jpg" alt="" id="img3">
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="social-icon">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-line"></i>
+            <i class="fab fa-github"></i>
+            <i class="fab fa-instagram"></i>
+        </div>
+    </section>
+    <script src="script.js"></script>
 </body>
+
 </html>
-
-<div class="container bg">
-  <div class="navBar">
-    <div class="logo"></div>
-    <ul>
-      <li><a href="#">Home</a></li>
-      <li><a href="#">Booking</a></li>
-     <!-- <li><a href="#">Admin</a></li> -->
-      <li><a href="#">Sign in</a></li>
-    </ul>
-  </div>
-
-  <div class="content">
-    <div class="khonkaen" style="width:50%;">
-      <div class="tnx">
-        <h2><i class="fas fa-map-marker-alt"></i> Thailand</h2>
-      </div>
-      <div class="txt">
-        <h3>Welcome To KhonKaen </h3>
-      </div>
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero voluptatem iure sunt praesentium repellat, quaerat, non at quam, saepe fugit labore consequuntur sequi repudiandae ab adipisci quae distinctio dolorem ducimus?</p>
-    </div>
-    <div class="card" style="width:50%;">
-      <div class="box1"> 
-      </div>
-      <div class="box2">  
-      </div>
-      <div class="box3">  
-      </div>
-      <div class="box4">
-      </div>
-    </div>
-  </div>
-
-</div>
