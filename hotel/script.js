@@ -4,17 +4,7 @@ const nav = document.getElementById('nav');
 const img1 = document.getElementById('img1');
 const img2 = document.getElementById('img2');
 const img3 = document.getElementById('img3');
-function switchMode(e) {
-    if (e.target.checked) {
-        document.documentElement.setAttribute('data-theme','dark');
-        darkMode();
-        imgSW('Dark');
-    } else {
-        document.documentElement.setAttribute('data-theme','light');
-        lightMode();
-        imgSW('Light');
-    }
-}
+document.documentElement.setAttribute('data-theme','dark');
 function darkMode() {
     toggleIcon.children[0].textContent = "Dark Mode";
     toggleIcon.children[1].classList.replace('fa-sun','fa-moon');
